@@ -85,11 +85,11 @@ Flask server will run at http://0.0.0.0:5000.
 
 #### Step 1: Prepare ESP32
 
-Ensure you have an ESP32 board and active WiFi connection. Use Arduino IDE or other platforms that support MicroPython.
+Ensure you have an ESP32 board and active WiFi connection. Use Thonny IDE or other platforms that support MicroPython.
 
 #### Step 2: Install MicroPython
 
-Make sure you have installed MicroPython firmware on ESP32. You can follow the official guide to install it here.
+Make sure you have installed MicroPython firmware on ESP32. You can follow the guide to install it <a href="https://docs.sunfounder.com/projects/esp32-starter-kit/en/latest/micropython/python_start/install_micropython.html">here</a>.
 
 #### Step 3: Install Dependencies
 
@@ -97,11 +97,11 @@ Ensure that umqtt.simple and urequests libraries are available. You can install 
 
 #### Step 4: Upload Code to ESP32
 
-Upload code from main.py in esp32_client/ folder to your ESP32 board. Don't forget to adjust WiFi and Ubidots parameters in .env file.
+Upload code from main.py to your ESP32 board. Don't forget to adjust WiFi and Ubidots parameters in .env file.
 
 #### Step 5: Run Program
 
-Run the program on ESP32 board. This program will read temperature and humidity data from DHT11 sensor and send it to Flask server and Ubidots every 10 seconds.
+Run the program on ESP32 board. This program will read temperature and humidity data from DHT11 sensor and send it to Flask server and Ubidots every 2 seconds.
 
 ## Environment Variables Configuration (.env)
 
