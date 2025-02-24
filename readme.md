@@ -159,4 +159,4 @@ If you want to contribute to this project, please fork this repository and creat
 
 ## License
 
-This project is licensed under the MIT License - see LICENSE for more details.
+This project is licensed under the MIT License - see <a href="./LICENSE">LICENSE</a> for more details.
